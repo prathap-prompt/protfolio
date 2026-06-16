@@ -8,7 +8,7 @@ const EDUCATION = [
     field: "Computer Science & Engineering",
     institution: "TKR Engineering College, Hyderabad",
     location: "India",
-    duration: "2020 – 2024",
+    duration: "2022 – 2026",
     grade: "CGPA: 7.8 / 10",
     color: "#7B61FF",
     highlights: [
