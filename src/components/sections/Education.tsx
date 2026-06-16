@@ -6,7 +6,7 @@ const EDUCATION = [
   {
     degree: "Bachelor of Technology",
     field: "Computer Science & Engineering",
-    institution: "XYZ University / College of Engineering",
+    institution: "TKR Engineering College, Hyderabad",
     location: "India",
     duration: "2020 – 2024",
     grade: "CGPA: 7.8 / 10",

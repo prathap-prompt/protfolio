@@ -102,35 +102,7 @@ export default function About() {
               with their money.
             </p>
 
-            {/* Quick facts */}
-            <div
-              className="mt-6 p-5 rounded-xl border border-[var(--border)]"
-              style={{ background: "var(--bg-surface)" }}
-            >
-              <p
-                className="text-xs font-mono mb-3"
-                style={{ color: "var(--text-muted)", fontFamily: "JetBrains Mono, monospace" }}
-              >
-                // quick_facts.json
-              </p>
-              <div className="space-y-2">
-                {[
-                  { key: "location", value: "India 🇮🇳" },
-                  { key: "status", value: "Open to work · Full-time" },
-                  { key: "interest", value: "Fintech, Payments, Core Banking" },
-                  { key: "learning", value: "System Design + AWS Solutions Arch" },
-                ].map(({ key, value }) => (
-                  <div key={key} className="flex items-start gap-2 font-mono text-sm">
-                    <span style={{ color: "var(--accent)" }}>
-                      &quot;{key}&quot;:
-                    </span>
-                    <span style={{ color: "var(--gold)" }}>
-                      &quot;{value}&quot;
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
+
           </div>
 
           {/* Highlight cards */}
