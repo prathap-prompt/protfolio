@@ -1,0 +1,28 @@
+{
+  "projectSettings": {
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "outputDirectory": ".next",
+    "framework": "nextjs",
+    "nodeVersion": "18.x"
+  },
+  "domains": [
+    {
+      "name": "prathapreddy.dev",
+      "production": true
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/resume",
+      "destination": "/Bajari_Prathap_Reddy_Resume.pdf",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://api.example.com/:path*"
+    }
+  ]
+}
