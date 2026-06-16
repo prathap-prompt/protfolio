@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ui/ThemeProvider";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://prathapreddy.dev"),
   title: "Prathap Reddy | Backend Developer",
   description:
     "Backend Developer specializing in NestJS, TypeScript, PostgreSQL, and RESTful APIs. Building scalable, secure backend systems for fintech and high-growth startups.",
