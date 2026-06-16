@@ -28,7 +28,7 @@ const PROJECTS = [
       "RESTful API with Swagger/OpenAPI documentation",
     ],
     tech: ["NestJS", "PostgreSQL", "TypeORM", "TypeScript", "REST API", "Swagger"],
-    github: "https://github.com/prathap-reddy/url-shortener-api",
+    github: "https://github.com/prathap-prompt/Url-Shortner.git",
     demo: null,
     color: "#00D4FF",
     icon: Link2,
