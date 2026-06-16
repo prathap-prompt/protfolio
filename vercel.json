@@ -1,17 +1,4 @@
 {
-  "projectSettings": {
-    "buildCommand": "npm run build",
-    "devCommand": "npm run dev",
-    "outputDirectory": ".next",
-    "framework": "nextjs",
-    "nodeVersion": "18.x"
-  },
-  "domains": [
-    {
-      "name": "prathapreddy.dev",
-      "production": true
-    }
-  ],
   "redirects": [
     {
       "source": "/resume",
