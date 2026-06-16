@@ -92,8 +92,8 @@ export default function Footer() {
             <div className="space-y-3">
               {[
                 { icon: Mail, label: "prathapreddy@email.com", href: "mailto:prathapreddy@email.com" },
-                { icon: Github, label: "github.com/prathap-reddy", href: "https://github.com/prathap-reddy" },
-                { icon: Linkedin, label: "linkedin.com/in/prathap-reddy", href: "https://linkedin.com/in/prathap-reddy" },
+                { icon: Github, label: "github.com/prathap-prompt", href: "https://github.com/prathap-prompt" },
+                { icon: Linkedin, label: "linkedin.com/in/prathapreddy7420", href: "www.linkedin.com/in/prathapreddy7420" },
               ].map(({ icon: Icon, label, href }) => (
                 <a
                   key={label}

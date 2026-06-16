@@ -189,12 +189,12 @@ export default function Hero() {
           {[
             {
               icon: Github,
-              href: "https://github.com/prathap-reddy",
+              href: "https://github.com/prathap-prompt",
               label: "GitHub",
             },
             {
               icon: Linkedin,
-              href: "https://linkedin.com/in/prathap-reddy",
+              href: "www.linkedin.com/in/prathapreddy7420",
               label: "LinkedIn",
             },
             {
