@@ -11,6 +11,7 @@ import {
   MessageSquare,
   User,
   AtSign,
+  Download,
 } from "lucide-react";
 
 const SOCIAL_LINKS = [
@@ -119,6 +120,29 @@ export default function Contact() {
               >
                 Available for full-time roles · Open to relocation
               </span>
+            </div>
+
+            {/* Download Resume */}
+            <div className="mb-8">
+              <a
+                href="/Bajari_Prathap_Reddy_Resume.pdf"
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:-translate-y-0.5 group"
+                style={{
+                  background: "var(--accent)",
+                  color: "var(--bg-primary)",
+                  boxShadow: "0 4px 20px rgba(0,255,100,0.3)",
+                }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 30px rgba(0,255,100,0.5)";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLElement).style.boxShadow = "0 4px 20px rgba(0,255,100,0.3)";
+                }}
+              >
+                <Download className="w-5 h-5" />
+                Download Resume
+              </a>
             </div>
 
             <div className="space-y-4 mb-8">
