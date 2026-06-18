@@ -194,7 +194,7 @@ export default function Hero() {
             },
             {
               icon: Linkedin,
-              href: "www.linkedin.com/in/prathapreddy7420",
+              href: "https://www.linkedin.com/in/prathapreddy7420",
               label: "LinkedIn",
             },
             {

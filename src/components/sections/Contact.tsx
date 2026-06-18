@@ -27,7 +27,7 @@ const SOCIAL_LINKS = [
     icon: Linkedin,
     label: "LinkedIn",
     value: "linkedin.com/in/prathapreddy7420",
-    href: "www.linkedin.com/in/prathapreddy7420",
+    href: "https://www.linkedin.com/in/prathapreddy7420",
     color: "#0077B5",
     desc: "Professional profile",
   },
@@ -89,7 +89,7 @@ export default function Contact() {
             className="mt-4 text-base max-w-xl"
             style={{ color: "var(--text-muted)" }}
           >
-            I&apos;m actively looking for backend roles at fintech companies.
+            I&apos;m actively looking for backend roles at fintech/Tech companies.
             Whether you have an opportunity, a project, or just want to connect
             — my inbox is open.
           </p>

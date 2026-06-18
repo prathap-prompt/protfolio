@@ -93,7 +93,7 @@ export default function Footer() {
               {[
                 { icon: Mail, label: "prathapreddy@email.com", href: "mailto:prathapreddy@email.com" },
                 { icon: Github, label: "github.com/prathap-prompt", href: "https://github.com/prathap-prompt" },
-                { icon: Linkedin, label: "linkedin.com/in/prathapreddy7420", href: "www.linkedin.com/in/prathapreddy7420" },
+                { icon: Linkedin, label: "linkedin.com/in/prathapreddy7420", href: "https://www.linkedin.com/in/prathapreddy7420" },
               ].map(({ icon: Icon, label, href }) => (
                 <a
                   key={label}
