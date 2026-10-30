@@ -18,8 +18,8 @@ const SOCIAL_LINKS = [
   {
     icon: Mail,
     label: "Email",
-    value: "prathapreddybajari@email.com",
-    href: "mailto:prathapreddy@email.com",
+    value: "prathapreddybajari@gmail.com",
+    href: "mailto:prathapreddybajari@gmail.com",
     color: "#00D4FF",
     desc: "Best way to reach me",
   },
@@ -46,14 +46,33 @@ export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate form submission
-    await new Promise((r) => setTimeout(r, 1200));
-    setLoading(false);
-    setSubmitted(true);
+    setSubmitError("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || "Your message could not be sent.");
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      setSubmitError(
+        error instanceof Error ? error.message : "Your message could not be sent. Please try again.",
+      );
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -364,6 +383,12 @@ export default function Contact() {
                     />
                   </div>
                 </div>
+
+                {submitError && (
+                  <p className="text-sm text-red-400" role="alert">
+                    {submitError}
+                  </p>
+                )}
 
                 <button
                   type="submit"

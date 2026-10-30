@@ -83,7 +83,7 @@ export default function Hero() {
     <section
       id="home"
       ref={heroRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-[100svh] py-24 sm:py-28 flex items-center justify-center overflow-hidden"
       style={{ background: "var(--bg-primary)" }}
     >
       {/* Grid background */}
