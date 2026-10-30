@@ -38,15 +38,7 @@ const SKILL_CATEGORIES = [
       { name: "Git & GitLab", level: 78, icon: "⎇" },
     ],
   },
-  {
-    category: "ML & Data",
-    color: "#FF6B6B",
-    skills: [
-      { name: "Machine Learning", level: 60, icon: "🧠" },
-      { name: "Data Preprocessing", level: 65, icon: "📊" },
-      { name: "Scikit-learn", level: 58, icon: "🔬" },
-    ],
-  },
+ 
 ];
 
 const TECH_BADGES = [

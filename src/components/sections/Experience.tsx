@@ -5,9 +5,9 @@ import { Briefcase, Calendar, MapPin, CheckCircle2 } from "lucide-react";
 const EXPERIENCES = [
   {
     role: "Backend Developer Intern",
-    company: "Tech Startup / Company",
+    company: "Tez credit / Company",
     location: "Remote / India",
-    duration: "Jan 2024 – May 2024",
+    duration: "Apr 2026 – May 2026",
     type: "Internship",
     color: "#00D4FF",
     description:

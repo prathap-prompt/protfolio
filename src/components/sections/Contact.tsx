@@ -18,7 +18,7 @@ const SOCIAL_LINKS = [
   {
     icon: Mail,
     label: "Email",
-    value: "prathapreddy@email.com",
+    value: "prathapreddybajari@email.com",
     href: "mailto:prathapreddy@email.com",
     color: "#00D4FF",
     desc: "Best way to reach me",
@@ -102,26 +102,6 @@ export default function Contact() {
               inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            {/* Status */}
-            <div
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8"
-              style={{
-                background: "rgba(0,255,100,0.08)",
-                border: "1px solid rgba(0,255,100,0.2)",
-              }}
-            >
-              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-              <span
-                className="text-xs font-mono"
-                style={{
-                  color: "#00FF94",
-                  fontFamily: "JetBrains Mono, monospace",
-                }}
-              >
-                Available for full-time roles · Open to relocation
-              </span>
-            </div>
-
             {/* Download Resume */}
             <div className="mb-8">
               <a

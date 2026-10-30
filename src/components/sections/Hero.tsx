@@ -118,20 +118,6 @@ export default function Hero() {
 
       {/* Main content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
-        {/* Status badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--border)] bg-[var(--accent-glow)] mb-8">
-          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          <span
-            className="text-xs font-medium"
-            style={{
-              color: "var(--text-secondary)",
-              fontFamily: "JetBrains Mono, monospace",
-            }}
-          >
-            Open to opportunities · Available for hire
-          </span>
-        </div>
-
         {/* Name */}
         <h1
           className="text-5xl sm:text-6xl md:text-7xl font-bold mb-4 tracking-tight"
@@ -199,7 +185,7 @@ export default function Hero() {
             },
             {
               icon: Mail,
-              href: "mailto:prathapreddy@email.com",
+              href: "mailto:prathapreddybajari@email.com",
               label: "Email",
             },
           ].map(({ icon: Icon, href, label }) => (
